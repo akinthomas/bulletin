@@ -1,0 +1,22 @@
+h1 {
+	color: blue;
+	font-size: 40px;
+}
+
+textarea {
+	height: 100px;
+	width: 500px;
+}
+
+#submit-this {
+	border-style: solid;
+	border-color: black;
+}
+
+.well {
+	padding: 5px;
+}
+
+body{
+	background-color: orange;
+}
