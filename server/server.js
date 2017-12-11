@@ -24,5 +24,5 @@ var PORT = process.env.PORT || 8000;
 
 //runs your server and has it listen on a port
 app.listen(PORT, function(){
-
+	console.log('Listening to Port ' + PORT)
 });

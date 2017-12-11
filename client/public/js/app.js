@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	$('#post-form').on('submit', function(e){
+	$('#bulletin-form').on('submit', function(e){
 		e.preventDefault();
 
 		var postObj = {
@@ -16,7 +16,8 @@ $(document).ready(function(){
 			contentType: 'application/json'
 		}).then(function(res){
 			if(res.results === "successful"){
-				alert("Message added successful")
+				alert("Your message has been received. You'll be redirected and have a chance to see your post.")
+				
 			} 
 			else {
 				console.log("Not working")
@@ -28,4 +29,4 @@ $(document).ready(function(){
 		$('#message-input').val("");
 	});
 
-});
+}); 
